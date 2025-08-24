@@ -11,9 +11,9 @@ function getTemperatureCategory(temp) {
   if (temp === undefined || temp === null) return "Clear";
 
   if (temp < 10) return "Snow";
-  if (temp >= 10 && temp < 20) return "Clouds";
-  if (temp >= 20 && temp < 30) return "Clear";
-  if (temp >= 30) return "Heat";
+  if (temp >= 10 && temp < 20) return "Snow";
+  if (temp >= 20 && temp < 30) return "Snow";
+  if (temp >= 30) return "Snow";
 
   return "Clear";
 }

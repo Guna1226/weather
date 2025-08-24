@@ -1,11 +1,11 @@
 // src/App.jsx
 
 import React, { useEffect, useState } from "react";
-import WeatherCard from "./components/WeatherCard";
+
 import Hourly from "./components/Hourly";
 import Daily from "./components/Daily";
 import WeatherDashboard from "./components/WeatherDashboard";
-import AnimatedSky from "./components/AnimatedSky";
+
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import Header from "./components/Header";
 import BackgroundVideo from "./components/BackgroundVideo";
